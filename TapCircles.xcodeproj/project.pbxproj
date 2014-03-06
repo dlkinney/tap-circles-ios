@@ -21,6 +21,7 @@
 		60B825A118C86A840052C3D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B8258318C86A840052C3D2 /* UIKit.framework */; };
 		60B825A918C86A840052C3D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60B825A718C86A840052C3D2 /* InfoPlist.strings */; };
 		60B825AB18C86A840052C3D2 /* TapCirclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B825AA18C86A840052C3D2 /* TapCirclesTests.m */; };
+		60B825B618C86AC70052C3D2 /* PNKCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B825B518C86AC70052C3D2 /* PNKCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		60B825A618C86A840052C3D2 /* TapCirclesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapCirclesTests-Info.plist"; sourceTree = "<group>"; };
 		60B825A818C86A840052C3D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60B825AA18C86A840052C3D2 /* TapCirclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapCirclesTests.m; sourceTree = "<group>"; };
+		60B825B418C86AC70052C3D2 /* PNKCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNKCircleView.h; sourceTree = "<group>"; };
+		60B825B518C86AC70052C3D2 /* PNKCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNKCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +115,14 @@
 		60B8258518C86A840052C3D2 /* TapCircles */ = {
 			isa = PBXGroup;
 			children = (
+				60B8259718C86A840052C3D2 /* Images.xcassets */,
+				60B8259118C86A840052C3D2 /* Main.storyboard */,
 				60B8258E18C86A840052C3D2 /* PNKAppDelegate.h */,
 				60B8258F18C86A840052C3D2 /* PNKAppDelegate.m */,
-				60B8259118C86A840052C3D2 /* Main.storyboard */,
+				60B825B418C86AC70052C3D2 /* PNKCircleView.h */,
+				60B825B518C86AC70052C3D2 /* PNKCircleView.m */,
 				60B8259418C86A840052C3D2 /* PNKViewController.h */,
 				60B8259518C86A840052C3D2 /* PNKViewController.m */,
-				60B8259718C86A840052C3D2 /* Images.xcassets */,
 				60B8258618C86A840052C3D2 /* Supporting Files */,
 			);
 			path = TapCircles;
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B825B618C86AC70052C3D2 /* PNKCircleView.m in Sources */,
 				60B8259018C86A840052C3D2 /* PNKAppDelegate.m in Sources */,
 				60B8259618C86A840052C3D2 /* PNKViewController.m in Sources */,
 				60B8258C18C86A840052C3D2 /* main.m in Sources */,
